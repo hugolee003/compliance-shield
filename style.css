@@ -572,4 +572,51 @@ footer {
     }
 }
 
+/* Hero CTA Group */
+.hero-cta-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
 
+.cta-micro-copy {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin: 0;
+    letter-spacing: 0.01em;
+}
+
+/* Final CTA Section */
+.final-cta-section {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.final-cta-box {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.final-cta-box h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+}
+
+.final-cta-box p:not(.cta-micro-copy) {
+    font-size: 1.125rem;
+    color: #94a3b8;
+    margin-bottom: 2.5rem;
+}
+
+.final-cta-section .cta-micro-copy {
+    color: #64748b;
+    margin-top: 1.25rem;
+}
